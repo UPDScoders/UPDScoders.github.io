@@ -1,0 +1,126 @@
+html{
+  font-size: 62.5%;
+  font-family: 'ARCO', sans-serif;
+}
+body{
+  font-size: 16px; /* 1rem = 10px */
+  
+  background-image: url("../img/vector2.svg");
+  background-size:contain; 
+}
+
+#page-container {
+  max-width: 90%; /* Establece el ancho máximo deseado */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: #ec21cae0;
+  font-size: 9.5rem;
+  text-shadow: 6px 8px 9px rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+  text-align: center;
+  color: #00ff6a;
+  font-size: 3.5rem;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.678);
+}
+  
+#question-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+  
+#question-text {
+  color: #f5a717;
+  font-size: 6.8rem;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+}
+  
+#options-list {
+  list-style: none;
+  padding: 0;
+  display:inline-block;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.option {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 5.8rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background-color: #d820d8;
+  padding: 10px 20px;
+  border-radius: 26px;
+  box-shadow: 8px 6px 4px rgba(0, 0, 0, 0.8);
+}
+  
+.option:hover {
+  background-color: #e064e0;
+}
+  
+#submit-button {
+  display: block;
+  margin: 0 auto;
+  
+  background-color: #11c4bb;
+  color: #fff;
+  font-size: 5.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 8px 6px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  font-family: 'ARCO', sans-serif;
+}
+  
+#submit-button:hover {
+  background-color: #17e0d6;
+}
+  
+#result-container {
+  position:absolute;
+  top: 47%;
+  right:43%;
+  /*transform: translateY(-50%);*/
+  text-align: center;
+  /*margin-top:20px;*/
+  font-weight: bold;
+  color: #fff;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+  
+#restart-button {
+  display: block;
+  margin: 15px auto;
+
+
+  text-align: center;
+  background-color: #cc8d19;
+  color: #fff;
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 8px 6px 4px rgba(0, 0, 0,0.6);
+  font-family: 'ARCO', sans-serif;
+}
+  
+#restart-button:hover {
+  background-color: #cf9934;
+}
+
+footer {
+  background-color: #cec6c6;
+  padding: 5px;
+  text-align: center;
+}
